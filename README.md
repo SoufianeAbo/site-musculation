@@ -1,4 +1,4 @@
-# Pizza Restaurant Website
+# Musculation Website
 
 Un site web pour la musculation basé sur le fichier Figma, écrit en HTML & CSS et quelques éléments ont été réalisés en JavaScript pour Brief 3.
 

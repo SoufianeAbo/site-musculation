@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&family=Ruda:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="/js/script.js" defer></script>
+</head>
+
+<body>
+    <nav class = "navbar">
+        <img src="img/logo.png" alt="logo">
+        <a href = "index.html" class = "desktop">Home</a>
+        <a href = "program.html" class = "desktop">Program</a>
+        <a href = "signup.html" class = "desktop" id = "register">S'inscrire</a>
+        <div class = "mobile">
+            <img src="/img/burger.png" alt="">
+        </div>
+    </nav>
+
+    <div class = "burgerMenu">
+        <a href = "index.html">Home</a>
+        <a href = "program.html">Program</a>
+        <a href = "signup.html">S'inscrire</a>
+    </div>
+
+    <div class = "belowHeader" id = "signupHeader">
+        <video autoplay muted loop>
+            <source src = "vid/situp.mp4" type = "video/mp4">
+        </video>
+        <h1>Trouvez votre paix. <br>Rejoignez notre salle de sport.</h1>
+        <img src="img/linedividor.png" alt="">
+        <p>S'entraîner avec notre abonnement <br>à la salle de sport</p>
+        <a href = "#signup">Rejoignez-nous</a>
+    </div>
+
+    <div class = "container" id = "signup">
+        <div class = "rejoin">
+            <h2>Sign Up</h2>
+
+            <div class = "form">
+                <h2>Sign Up</h2>
+                <form id = "myform" action="" method = "post" onsubmit="return saveData(event)">
+                    <input id = "name" type = "text" placeholder = "Full Name">
+                    <input id="email" type="email" placeholder="Email" >
+                    <input id="cin" type="text" placeholder="CIN" >
+                    <input id="phone" type="tel" placeholder="Phone">
+                    <select name = "choice" id = "choice" required>
+                        <option value = "1 month">1 month</option>
+                        <option value = "6 months">6 months</option>
+                        <option value = "12 months">12 months</option>
+                    </select>
+                    <input type="submit">
+                </form>
+            <div id="result"></div> 
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class = "footerFlex">
+            <div>
+                <img src="/img/footerLogo.png" alt="">
+                <a href = "#">Termes et conditions</a>
+                <a href = "#">Mentions légales</a>
+            </div>
+    
+            <div>
+                <h2>Menu</h2>
+                <a href = "index.html">Home</a>
+                <a href = "program.html">Program</a>
+                <a href = "signup.html">S'inscrire</a>
+            </div>
+    
+            <div>
+                <h2>Nous contacter</h2>
+                <p>Tél : 01 23 45 67 89</p>
+                <p>E-mail : <u>info@nightcrawlers.com</u></p>
+            </div>
+    
+            <div>
+                <h2>Réseaux</h2>
+                <a href = "https://www.facebook.com/">Facebook</a>
+                <a href = "https://www.twitter.com//">Twitter</a>
+                <a href = "https://www.instagram.com/">Instagram</a>
+            </div>
+        </div>
+
+        <p id = "copyright">© 2023 NightCrawlers</p>
+    </footer>
+</body>
+</html>

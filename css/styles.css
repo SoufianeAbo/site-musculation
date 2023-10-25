@@ -191,7 +191,7 @@ a {
 
 .container2 {
     background-color: var(--text-color);
-    background-image: url("/img/background.png");
+    background-image: url("../img/background.png");
 }
 
 .faq p {
@@ -277,7 +277,7 @@ a {
 }
 
 .lineDivisor {
-    content: url("/img/linedividor.png");
+    content: url("../img/linedividor.png");
     margin: 0 auto;
     width: 50%;
 }
@@ -369,7 +369,7 @@ footer a {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background-image: url("/img/blurredBg.png");
+    background-image: url("../img/blurredBg.png");
     text-align: center;
     background-repeat: repeat-x;
     clip-path: polygon(0 14%, 100% 0, 100% 100%, 0 78%);
@@ -382,7 +382,7 @@ footer a {
 #secondBg {
     clip-path: polygon(0 0, 100% 19%, 100% 79%, 0 100%);
     padding-top: 30%;
-    background-image: url("/img/blurredBg2.png");
+    background-image: url("../img/blurredBg2.png");
 }
 
 #secondBg .weightlifting {
@@ -402,7 +402,7 @@ footer a {
     width: 60%;
     margin: 0 auto;
     margin-top: 5%;
-    background-image: url("/img/cardWeight.png");
+    background-image: url("../img/cardWeight.png");
     border-radius: 50px;
     border: 8px solid var(--text-color);
     background-size: cover;
@@ -430,7 +430,7 @@ footer a {
 #finalBg {
     clip-path: none;
     margin-top: 10%;
-    background-image: url("/img/cardioBgMobile.png");
+    background-image: url("../img/cardioBgMobile.png");
     background-size: cover;
     margin: 0;
     padding: 0;
@@ -445,7 +445,7 @@ footer a {
 }
 
 #signup {
-    background-image: url("/img/phoneSign.png");
+    background-image: url("../img/phoneSign.png");
     background-size: cover;
 }
 
@@ -593,7 +593,7 @@ input[type="submit"] {
     }
 
     .container2 {
-        background-image: url("/img/backgroundMobile.png");
+        background-image: url("../img/backgroundMobile.png");
         display: grid;
     }
 
@@ -624,7 +624,7 @@ input[type="submit"] {
     }
 
     .lineDivisor {
-        content: url("/img/lineDividorAligned.png");
+        content: url("../img/lineDividorAligned.png");
         width: 5%;
         margin: 0;
     }
@@ -732,7 +732,7 @@ input[type="submit"] {
     }
 
     .bgImg img {
-        content: url("/img/weightliftingGuy.png");
+        content: url("../img/weightliftingGuy.png");
         width: 100%;
     }
 
@@ -753,7 +753,7 @@ input[type="submit"] {
     }
 
     #finalBg {
-        background-image: url("/img/cardio.jpg")
+        background-image: url("../img/cardio.jpg")
     }
 
     #finalBg .weightlifting {
